@@ -1,0 +1,15 @@
+﻿{
+    "Clients":
+    [
+        {
+
+        },
+        {
+            "name":"Stasy",
+            "passport":"BM2345678",
+            "number":"+375(29)298-10-55",
+            "password":"iwiwi=pickme06"
+        }
+    ]
+}
+

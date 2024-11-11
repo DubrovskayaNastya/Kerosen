@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Каршеринг</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="qw.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="mainthree.js" defer></script>
+  </head>
+  <body>
+    <div style="width: 1854px; height:1920px; left: 0px; top: 0px; position:absolute; background: black"></div>
+    <div style="width: 1854px; height: 132px; left: 0px; top: 3px; position:absolute; background: white; border-radius: 18px" ></div>
+    <a href="./kerosene.html"><img style="width: 370px; height: 130px; left: 0px; top: 3px; position: absolute; border-radius: 31px;z-index: 4;" src="why.png"/></a>
+    <a class="tarif" href="./kerosene.html#taris"style="left:420px;top:9px;" ><b>Подсказки</b></a>
+    <a class="tarif" href="./kerosene.html#maps" style="left:620px;top:9px;"><b>Зоны завершения</b></a>
+    <a class="tarif" href="./kerosene.html#contacs" style="left:945px;top:9px;"><b>Служба поддержки</b></a>
+    <bodys> 
+        <div class="menu-container">
+          <button style="top: 36px;position: absolute;" class="burger"  id="burger">
+              <img src="icon.png" alt="Меню" id="icon">
+          </button>
+          <div class="overlay" id="overlay"></div> 
+          <nav  class="nav" id="nav">
+            <button class="burger_button"  id="burger_button">
+              <img src="close.png" alt="Закрыть" id="burger_icon">
+          </button>
+              <ul>
+                <img src="logo.jpg" alt="i" style="width: 200px; height: auto; top:27px;right: 300px; position: absolute;">
+                  <li><a href="./keroseneone.html" class="tarif" style="top:200px;right: 301px;">Карта</a></li>
+                  <li><a href="#" class="tarif"style="color:red;top:250px;right: 273px;">Каталог</a></li>
+                  <li><a href="./keronesefour.html" class="tarif"style="top:300px;right: 268px;">Отзывы</a></li>
+                  <li><a  href="#" id="openModalLink" onclick="openModal()" class="tarif"style="top:350px;right: 116px;">Войти/Регистрация</a></li>
+
+                  <iframe id="iframeContainer" class="modal-iframe" src="login.html"></iframe>
+              </ul>
+          </nav>
+      </div>
+    </bodys> 
+    <div id="product-details" style="width: 1754px; height: 805px;z-index: 5;position: absolute;"class="products">
+    </div>
+    <div style="top: 138px;width: 1854px; height: 818px; left: 0px; position:absolute; background: white; border-radius: 18px" ></div> 
+    <a style="top:545px;font-size: 1.4rem;left:940px;position: absolute;"><b>Разгон до 100 км/ч</b></a>
+    <button class="icons"style="width: 70px;height: 55px;top: 550px;">
+      <img src="speedometer.png" style="width: 70px;height: auto;top: -10px;position: absolute;left:0px">
+    </button>
+    <a style="top:645px;font-size: 1.4rem;left:940px;position: absolute;"><b>Двигатель</b></a>
+    <button class="icons"style="width: 70px;height: 55px;top: 650px;">
+      <img src="engine.png" style="width: 65px;height: auto;top: 2px;position: absolute;left:3px">
+    </button>
+    <a class="burger" style="top:800px;left:840px;width: 180px;height: 50px;font-size: 1.4rem; color: black;" href="./kerosenetwo.html">
+      <b style="padding: 43px; top: -27px;position: absolute;">Каталог</b>
+    </a>
+    <a class="burger" style="top:800px;left:1240px;width: 180px;height: 50px;font-size: 1.4rem; color: black;" onclick="openModals()">
+      <b style="padding: 33px; top: -27px;position: absolute;text-align: center;left:0px">Оформить заказ </b>
+    </a>
+    <div style="width: 1854px; height: 102px; left: 0px; top: 960px; position:absolute; background: white; border-radius: 18px" >
+      <a style="font-size: 1.8rem;top:35px;left: 850px;position: absolute;"><b>Тарифы</b></a>
+    </div>
+    <div style="width: 1854px; height: 850px; left: 0px; top: 1066px; position:absolute; background: white; border-radius: 18px" >
+      <div style="width: 400px;height: 550px;top:100px;left: 50px;position: absolute;border: 1px solid #ccc;border-radius: 25px;
+      padding: 10px;
+      text-align:left;
+      background-color: hsl(0, 0%, 97%);"><a class="roboto-medium" style="font-size: 1.4rem;position: absolute;left: 25px;top:30px"><b>МИНУТЫ</b></a>
+      <a style="top:70px;left: 25px;position: absolute;">Тариф, в котором вы платите только за минуты использования авто.</a>
+    <div style="width: 15px; height: 15px; position:absolute;  background: rgb(233, 2, 2);  border-radius: 9999px;position: absolute;top:140px;left: 25px; outline: 1px solid black; padding: 0.1rem 0.1rem; box-shadow: 3px 3px;">
+    </div>
+
+    <div style="width: 400px;height: 550px;top:0px;left:445px;position: absolute;border: 1px solid #ccc;border-radius: 25px;
+    padding: 10px;
+    text-align:left;
+    background-color: hsl(0, 0%, 97%);"><a class="roboto-medium" style="font-size: 1.4rem;position: absolute;left: 25px;top:30px"><b>МИНУТЫ И КМ</b></a>
+    <a style="top:70px;left: 25px;position: absolute;right: 50px;">Минутные пакеты включают время аренды, а пробег вы регулируете сами.</a>
+  <div style="width: 15px; height: 15px; position:absolute;  background: rgb(233, 2, 2);  border-radius: 9999px;position: absolute;top:140px;left: 25px; outline: 1px solid black; padding: 0.1rem 0.1rem; box-shadow: 3px 3px;">
+  </div>
+  <div style="width: 15px; height: 15px; position:absolute;  background: rgb(233, 2, 2);  border-radius: 9999px;position: absolute;top:190px;left: 25px; outline: 1px solid black; padding: 0.1rem 0.1rem; box-shadow: 3px 3px;">
+  </div>
+  <div style="width: 15px; height: 15px; position:absolute;  background: rgb(233, 2, 2);  border-radius: 9999px;position: absolute;top:240px;left: 25px; outline: 1px solid black; padding: 0.1rem 0.1rem; box-shadow: 3px 3px;">
+  </div>
+    </div>
+
+    <div style="width: 400px;height: 550px;top:0px;left:887px;position: absolute;border: 1px solid #ccc;border-radius: 25px;
+    padding: 10px;
+    text-align:left;
+    background-color: hsl(0, 0%, 97%);"><a class="roboto-medium" style="font-size: 1.4rem;position: absolute;left: 25px;top:30px"><b>ЧАСЫ И КМ</b></a>
+    <a style="top:70px;left: 25px;position: absolute;right: 50px;">Часовые абонементы включают время аренды, а пробег вы регулируете сами.</a>
+  <div style="width: 15px; height: 15px; position:absolute;  background: rgb(233, 2, 2);  border-radius: 9999px;position: absolute;top:140px;left: 25px; outline: 1px solid black; padding: 0.1rem 0.1rem; box-shadow: 3px 3px;">
+  </div>
+  <div style="width: 15px; height: 15px; position:absolute;  background: rgb(233, 2, 2);  border-radius: 9999px;position: absolute;top:190px;left: 25px; outline: 1px solid black; padding: 0.1rem 0.1rem; box-shadow: 3px 3px;">
+  </div>
+  <div style="width: 15px; height: 15px; position:absolute;  background: rgb(233, 2, 2);  border-radius: 9999px;position: absolute;top:240px;left: 25px; outline: 1px solid black; padding: 0.1rem 0.1rem; box-shadow: 3px 3px;">
+  </div>
+    </div>
+    <div style="width: 400px;height: 550px;top:0px;left:1330px;position: absolute;border: 1px solid #ccc;border-radius: 25px;
+    padding: 10px;
+    text-align:left;
+    background-color: hsl(0, 0%, 97%);"><a class="roboto-medium" style="font-size: 1.4rem;position: absolute;left: 25px;top:30px"><b>СУТКИ И КМ</b></a>
+    <a style="top:70px;left: 25px;position: absolute;right: 50px;">Абонементы на сутки включают время аренды, а пробег вы регулируете сами.</a>
+  <div style="width: 15px; height: 15px; position:absolute;  background: rgb(233, 2, 2);  border-radius: 9999px;position: absolute;top:140px;left: 25px; outline: 1px solid black; padding: 0.1rem 0.1rem; box-shadow: 3px 3px;">
+  </div>
+  <div style="width: 15px; height: 15px; position:absolute;  background: rgb(233, 2, 2);  border-radius: 9999px;position: absolute;top:190px;left: 25px; outline: 1px solid black; padding: 0.1rem 0.1rem; box-shadow: 3px 3px;">
+  </div>
+  <div style="width: 15px; height: 15px; position:absolute;  background: rgb(233, 2, 2);  border-radius: 9999px;position: absolute;top:240px;left: 25px; outline: 1px solid black; padding: 0.1rem 0.1rem; box-shadow: 3px 3px;">
+  </div>
+  <div style="width: 15px; height: 15px; position:absolute;  background: rgb(233, 2, 2);  border-radius: 9999px;position: absolute;top:290px;left: 25px; outline: 1px solid black; padding: 0.1rem 0.1rem; box-shadow: 3px 3px;">
+  </div>
+  <div style="width: 15px; height: 15px; position:absolute;  background: rgb(233, 2, 2);  border-radius: 9999px;position: absolute;top:340px;left: 25px; outline: 1px solid black; padding: 0.1rem 0.1rem; box-shadow: 3px 3px;">
+  </div>
+  <div style="width: 15px; height: 15px; position:absolute;  background: rgb(233, 2, 2);  border-radius: 9999px;position: absolute;top:390px;left: 25px; outline: 1px solid black; padding: 0.1rem 0.1rem; box-shadow: 3px 3px;">
+  </div>
+  <div style="width: 15px; height: 15px; position:absolute;  background: rgb(233, 2, 2);  border-radius: 9999px;position: absolute;top:440px;left: 25px; outline: 1px solid black; padding: 0.1rem 0.1rem; box-shadow: 3px 3px;">
+  </div>
+    </div>
+  </div>
+    <a   style="font-size: 1.3rem;position: absolute;left: 55px;top:730px;color: #9b9b9b;">Условия</a>
+    <div style="width: 10px; height: 10px; position:absolute;  background: rgb(233, 2, 2);  border-radius: 9999px;position: absolute;top:780px;left: 55px; outline: 1px solid black; padding: 0.1rem 0.1rem; box-shadow: 3px 3px;">
+    </div>
+    <a class="roboto-medium" style="font-size: 1.1rem;position: absolute;left: 80px;top:777px">Возраст от 18 лет</a>
+    <div style="width: 10px; height: 10px; position:absolute;  background: rgb(233, 2, 2);  border-radius: 9999px;position: absolute;top:780px;left: 300px; outline: 1px solid black; padding: 0.1rem 0.1rem; box-shadow: 3px 3px;">
+    </div>
+    <a class="roboto-medium" style="font-size: 1.1rem;position: absolute;left: 325px;top:777px">Стаж вождения от 1 года</a>
+
+    <div style="width: 10px; height: 10px; position:absolute;  background: rgb(233, 2, 2);  border-radius: 9999px;position: absolute;top:780px;left: 605px; outline: 1px solid black; padding: 0.1rem 0.1rem; box-shadow: 3px 3px;">
+    </div>
+    <a class="roboto-medium" style="font-size: 1.1rem;position: absolute;left: 630px;top:777px">Бензин оплачен</a>
+</div>  
+
+
+
+
+<div id="orderModals" class="modal">
+  <div class="modal-content">
+      <span class="close-button" onclick="closeModals()">&times;</span>
+      <h2>Заказ оформлен!</h2>
+      <p>Спасибо за ваш заказ. Оплатить можете через ЕРИП по коду услуги 7138320.</p>
+  </div>
+</div>
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,661 @@
+*.white
+{
+    width: 460px; 
+    height: 125px;
+    position: absolute; 
+    background: white;
+    border-radius: 39px;
+}
+.newblack
+{
+    width: 60px; 
+    height: 58px;
+     position:absolute; 
+     background: black;
+      border-radius: 9999px;
+}
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    border-radius: 31px;
+    height: 720px;
+    width: 1851px;
+    position: absolute;
+}
+.newblack:hover {
+    box-shadow: 0 0 25px #000000;
+    -moz-box-shadow: 0 0 25px #000000;
+    -o-box-shadow: 0 0 25px #000000;
+    -ms-box-shadow: 0 0 25px #000000;
+    -webkit-box-shadow: 0 0 25px #000000;
+}
+.tarif{
+    top:7px;
+    margin: 39px;
+     position: absolute;
+     font-size: 1.7rem; 
+     text-decoration: none;
+      color:black;
+}
+.tarif:hover
+{
+    color:rgb(255, 13, 13);
+}
+.line
+{
+    position: absolute;
+    top:942px;
+    background-color:white;
+    width: 105px ;
+    height: 8px;
+    border: 1px;
+}
+.lines
+{
+    position: absolute;
+    top:1869px;
+    background-color:white;
+    width: 105px ;
+    height: 8px;
+    border: 1px;
+}
+.linesnew
+{
+    position: absolute;
+    top:2858px;
+    background-color:white;
+    width: 105px ;
+    height: 8px;
+    border: 1px;
+}
+body {
+    font: 16px Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .slider-container {
+    width: 1854px; 
+    height: 680px; 
+    left: 0px; 
+    top: 1014px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .arrow {
+    position: relative;
+    top:-1000px;
+    font-size: 30px;
+  }
+  
+  .slider {
+    display: flex;
+    width: 1700px;
+    overflow: hidden;
+    margin: 0 10px;
+  }
+  
+  .items {width: 1854px;
+    height: 580px;
+   display: flex; 
+    position: relative;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0 auto;
+      border: 1px solid #ffffff;
+    overflow: hidden;
+    left: 100px;
+  will-change: right;
+    transition: right .3s; 
+  }
+  
+  .item {
+    width: 1400px;
+    height: 580px;
+    position: absolute;
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: rgb(255, 255, 255);
+   box-sizing: border-box; 
+     border: 1px solid #ffffff; 
+    transition: all ease .6s;
+    left: 600px;
+    top: 0px;
+  }
+   .item ~ .item {
+    border-left: none;
+  }
+
+  
+bodys
+{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.menu-container {
+    position: relative;
+}
+
+.burger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 5;
+    top: -889px;
+    right: 40px;
+    border-radius: 1rem;
+    outline: 1px solid black;
+    padding: 0.3rem 0.7rem;
+    box-shadow: 6px 6px;
+    transition: all 0.1s ease-out;
+    position: absolute;
+}
+.burger img {
+    width: 40px;
+    height: auto;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Затемнение экрана */
+    display: none; /* По умолчанию скрыто */
+    z-index: 9;
+}
+
+.nav {
+    width: 505px;
+    height: 957px;
+    border-radius: 1.7rem;
+    border: 5px solid rgb(0, 0, 0);
+    position: fixed;
+    top: 2px;
+    right: -800px;
+    background-color: white;
+    border: 3px solid #000000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: right 0.5s ease;
+    z-index: 9;
+}
+.nav.show {
+    right: 0px;
+}
+.nav ul {
+    width: 300px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav li {
+    padding: 30px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.burger:active {
+    box-shadow: none;
+    transform: translate(10px, 10px);
+}
+
+.burger:hover {
+    background-color: rgb(255, 13, 13);
+}
+
+.burger {
+    display: block;
+}
+
+.burger_button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 62.38px;
+    height: 52.79px;
+    z-index: 10;
+    top: 33px; 
+    right:39px;
+    border-radius: 1rem;
+    outline: 1px solid black;
+    padding: 0.3rem 0.7rem;
+    box-shadow: 6px 6px;
+    transition: all 0.1s ease-out;
+    position: absolute;
+}
+
+.burger_button img {
+        width: 40px;
+        height: auto;
+}
+
+
+.burger_button:hover {
+    background-color: rgb(255, 13, 13);
+}
+.burger_button:active {
+    box-shadow: none;
+    transform: translate(10px, 10px);
+}
+
+.buttons
+{
+    background-color: red;
+    color: black;
+    border-radius: 1rem;
+    outline: 1px solid black;
+    padding: 0.3rem 0.7rem;
+    box-shadow: 6px 6px;
+    position: absolute;
+    height: 60px;
+    top:415px;
+}
+
+.newtarif{
+    top:432px;
+     position: absolute;
+     font-size: 1.7rem; 
+     text-decoration: none;
+      color:black;
+}
+#map {
+    position: absolute;
+    top:138px;
+    border-radius: 31px;
+}
+.product-image {
+    width: 350px; /* Установите желаемую ширину */
+    height: 300px; /* Установите желаемую высоту */
+    object-fit:contain; /* Обеспечивает обрезку изображения, чтобы оно соответствовало заданным размерам */
+}
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Четыре колонки */
+    gap: 60px; /* Расстояние между элементами */
+    padding: 20px;
+}
+
+#product-container {
+    overflow-y: auto; /* Вертикальная прокрутка */
+}
+
+/* Стили для каждого продукта */
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    
+    cursor: pointer;
+    background-color: #ffffff;
+  
+}
+.product:hover
+{
+    background-color: #eceaea;
+    transform: scale(1.05);
+}
+.products
+{
+top:150px;
+left: 70px;
+position: absolute;
+}
+.products-image
+{
+    position: absolute;
+    width: 700px;
+    height: 650px;
+    object-fit:contain; 
+}
+.product-p
+{
+    position: absolute;
+    top:24px;
+    left: 1152px;
+}
+.icons
+{
+    border: 0px solid #ffffff;
+    background-color:  rgb(255, 0, 0,0.75);
+    position: absolute;
+    left:850px;
+    border-radius: 0.4rem;
+    outline: 1px solid hsl(0, 0%, 0%,0.75);
+    padding: 0.3rem 0.7rem;
+    box-shadow: 3px 3px;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+.container {
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 0 20px;
+}
+.container .forms {
+    display: flex;
+    align-items: center;
+    height: 440px;
+    width: 200%;
+    transition: height 0.2s ease;
+}
+.container .form {
+    width: 50%;
+    padding: 30px;
+    background-color: #fff;
+    transition: margin-left 0.18s ease;
+}
+.container.active .login {
+    margin-left: -500px;
+    opacity: 0;
+    transition: margin-left 0.18s ease, opacity 0.15s ease;
+}
+.container .signup {
+    opacity: 0;
+    transition: opacity 0.09s ease;
+}
+.container.active .signup {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+.container.active .forms {
+    height: 600px;
+}
+.container .form .title {
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+}
+.form .title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color:#f52f2f;
+    border-radius: 25px;
+}
+.form .input-field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+.input-field input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+.input-field input:is(:focus, :valid) {
+    border-bottom-color: #f52f2f;
+}
+.input-field i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 23px;
+    transition: all 0.2s ease;
+}
+.input-field input:is(:focus, :valid)~i {
+    color: #f52f2f;
+}
+.input-field i.icon {
+    left: 0;
+}
+.input-field i.showHidePw {
+    right: 0;
+    cursor: pointer;
+    padding: 10px;
+}
+.form .checkbox-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.checkbox-text .checkbox-content {
+    display: flex;
+    align-items: center;
+}
+.checkbox-content input {
+    margin-right: 10px;
+    accent-color:#f52f2f;
+}
+.form .text {
+    color: #333;
+    font-size: 14px;
+}
+.form a.text {
+    color: #f52f2f;
+    text-decoration: none;
+}
+.form a:hover {
+    text-decoration: underline;
+}
+.form .button {
+    margin-top: 35px;
+}
+.form .button input {
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #f52f2f;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button input:hover {
+    background-color:#f52f2f;
+}
+.form .login-signup {
+    margin-top: 30px;
+    text-align: center;
+}
+.close-btn {
+    top:10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+}
+.close-btn:hover
+{
+    color: white;
+    background-color:#f52f2f;
+}
+.closes-btn {
+    top:10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+    z-index: 10;
+}
+.closes-btn:hover
+{
+    color: white;
+    background-color:#f52f2f;
+}
+.modal-iframe {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    z-index: 9; /* Ensure this is above other content when visible */
+}
+#container {
+    
+    display: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    visibility: visible;
+    opacity: 1;
+}
+
+#container.hidden {
+    visibility: hidden;
+    opacity: 0;
+    display: none; /* Remove it from the layout completely when hidden */
+}
+
+
+
+
+
+.reviews-container {
+    list-style-type: none; /* Убирает маркеры списка */
+    padding: 0;
+    margin: 0;
+}
+
+/* Список отзывов с прокруткой */
+.reviews-list {
+    overflow-y: auto;
+    margin-top: 35px;
+    padding: 15px;
+    border-top: 1px solid #ffffff;
+    max-height: 800px; /* фиксированная высота контейнера */
+    background-color: #f8f8f8; /* добавляем фон для контейнера */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для каждого отзыва */
+.review-item {
+    width: 800px;
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Стили для заголовка и текста отзыва */
+.review-item h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.review-item p {
+    margin: 5px 0 0;
+    color: #666;
+}
+
+/* Кнопка для загрузки отзывов */
+.rev {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.rev:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+.modal {
+    display: none; /* Модальное окно скрыто по умолчанию */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Контент модального окна */
+.modal-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Кнопка закрытия модального окна */
+.close-button {
+    font-size: 1.5rem;
+    color: #333;
+    position: absolute;
+    top: 420px;
+    right: 720px;
+    cursor: pointer;
+}
+
+/* Стили для текста внутри модального окна */
+.modal-content h2 {
+    margin-top: 0;
+    color: #ff0000; /* Зеленый цвет для заголовка */
+}
+
+.modal-content p {
+    color: #666;
+}

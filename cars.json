@@ -1,0 +1,118 @@
+﻿{
+    "Car":
+    [
+        {
+            "name":"Nissan gt-r",
+            "engine":"3.8-литровый V6 с двойным турбонаддувом",
+            "overclocking":"примерно 3.0 секунды",
+            "image":"C:\\Users\\dubro\\veb\\car\\nissan-gt-r.jpg",
+            "price":0.60
+        },
+        {
+            "name":"Porsche 911 turbo s",
+            "engine":"3.8-литровый шестицилиндровый оппозитный двигатель с двойным турбонаддувом",
+            "overclocking":"всего за 2.7 секунды",
+            "image":"C:\\Users\\dubro\\veb\\car\\porsche911.jpg",
+            "price":1.20
+        },
+        {
+            "name":"Dodge Challenger SRT Demon",
+            "engine":"6.2-литровый V8 с нагнетателем",
+            "overclocking":"примерно 2.3 секунды",
+            "image":"C:\\Users\\dubro\\veb\\car\\Dodge Challenger SRT Demon.jpg",
+            "price":0.90
+        },
+        {
+            "name":"Lexus Rx350",
+            "engine":"3.5-литровый V6",
+            "overclocking":"примерно 7.7 секунд",
+            "image":"C:\\Users\\dubro\\veb\\car\\Lexus Rx350.jpg",
+            "price":0.80
+        },
+        {
+            "name":"BMW M5 CS",
+            "engine":"4.4-литровый V8 с двойным турбонаддувом",
+            "overclocking":"всего за 3.0 секунды",
+            "image":"C:\\Users\\dubro\\veb\\car\\BMW M5 CS.jpg",
+            "price":0.20
+        },
+        {
+            "name":"Mercedes e63s AMG w213",
+            "engine":"4.0-литровый V8 с двойным турбонаддувом",
+            "overclocking":"примерно 3.4 секунды",
+            "image":"C:\\Users\\dubro\\veb\\car\\Mercedes e63s AMG w213.jpg",
+            "price":0.80
+        },
+        {
+            "name":"Lamborghini Huracan",
+            "engine":"5.2-литровый V10 с атмосферным впрыском",
+            "overclocking":"примерно 3.2 секунды",
+            "image":"C:\\Users\\dubro\\veb\\car\\Lamborghini Huracan.jpg",
+            "price":2.80
+        },
+        {
+            "name":"Aston Martin Victor",
+            "engine":"атмосферный V12 объемом 7.3 литра",
+            "overclocking":"примерно 3.4 секунды",
+            "image":"C:\\Users\\dubro\\veb\\car\\Aston Martin Victor.jpg",
+            "price":0.80
+        },
+        {
+            "name":"Bentley Continental GT",
+            "engine":"6.0-литровым объемом",
+            "overclocking":"около 3.7 секунды",
+            "image":"C:\\Users\\dubro\\veb\\car\\Bentley Continental GT.jpg",
+            "price":0.70
+        },
+        {
+            "name":"Mercedes Benz G 800 Brabus",
+            "engine":"6.0-литровый V12 с двойным турбонаддувом",
+            "overclocking":"примерно 4.1 секунды",
+            "image":"C:\\Users\\dubro\\veb\\car\\Mercedes Benz G 800 Brabus.jpg",
+            "price":0.90
+        },
+        {
+            "name":"Audi A5",
+            "engine":"3.0-литровый V6 с турбонаддувом",
+            "overclocking":"около 5.0 секунд",
+            "image":"C:\\Users\\dubro\\veb\\car\\audi  a5.jpg",
+            "price":0.85
+        },
+        {
+            "name":"Mclaren senna gt_coupe",
+            "engine":"4.0-литровый V8 с двойным турбонаддувом",
+            "overclocking":"примерно 2.8 секунды",
+            "image":"C:\\Users\\dubro\\veb\\car\\mclaren senna gt_coupe.jpg",
+            "price":0.95
+        },
+        {
+            "name":"Volvo v60",
+            "engine":"2.0-литровый 4-цилиндровый с мощностью от 150 до 190 л.с",
+            "overclocking":"5.5 секунд",
+            "image":"C:\\Users\\dubro\\veb\\car\\volvo v60.jpg",
+            "price":0.40
+        },
+        {
+            "name":"Mazda 3 Signature",
+            "engine":"2.5-литровый 4-цилиндровый бензиновый двигатель с турбонаддувом",
+            "overclocking":"примерно 6.4 секунды",
+            "image":"C:\\Users\\dubro\\veb\\car\\Mazda 3 Signature.jpg",
+            "price":0.30
+        },
+        {
+            "name":"Infiniti qx50",
+            "engine":"2.0-литровый 4-цилиндровый двигатель с турбонаддувом",
+            "overclocking":"примерно 6.7 секунд",
+            "image":"C:\\Users\\dubro\\veb\\car\\infiniti qx50.jpg",
+            "price":0.65
+        },
+        {
+            "name":"Ferrari LaFerrari",
+            "engine":"6,3-литровый объём",
+            "overclocking":"всего за 2,6 секунды",
+            "image":"C:\\Users\\dubro\\veb\\car\\ferrari laferrari.JPG",
+            "price":1.25
+        }
+    ]
+}
+

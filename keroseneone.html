@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Каршеринг</title>
+    <link rel="shortcut icon" href="qw.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://api-maps.yandex.ru/2.1?apikey=2a45605a-ad30-4d9b-8580-8e858ee6071f&lang=ru_RU" type="text/javascript"></script>
+    <script src="mainone.js" defer></script>
+  </head>
+    <body>
+    <div style="width: 1854px; height:960px; left: 0px; top: 0px; position:absolute; background: black"></div>
+    <div style="width: 1854px; height: 132px; left: 0px; top: 3px; position:absolute; background: white; border-radius: 18px" ></div>
+    <a href="./kerosene.html"><img style="width: 370px; height: 130px; left: 0px; top: 3px; position: absolute; border-radius: 31px;z-index: 4;" src="why.png"/></a>
+    <a class="tarif" href="./kerosene.html#taris"style="left:420px;top:9px;" ><b>Подсказки</b></a>
+    <a class="tarif" href="./kerosene.html#maps" style="left:620px;top:9px;"><b>Зоны завершения</b></a>
+    <a class="tarif" href="./kerosene.html#contacs" style="left:945px;top:9px;"><b>Служба поддержки</b></a>
+    <div class="slider-container" style="visibility: hidden;top:0px">
+      <button  id="leftArrow" >
+    </button>
+     <div class="slider"> 
+        <div class="items" id="items">
+         
+          <div class="items">
+           
+          </div> 
+          <div class="item">
+           </div>
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+        </div>
+    </div> 
+    <button id="rightArrow"></button>
+    </div>
+    <div id="map" style=" border-radius: 18px; width: 1854px; height: 700px;z-index: 4; "> </div> 
+    <bodys> 
+      <div class="menu-container">
+        <button style="top: 36px;position: absolute;" class="burger"  id="burger">
+            <img src="icon.png" alt="Меню" id="icon">
+        </button>
+        <div class="overlay" id="overlay"></div> 
+        <nav  class="nav" id="nav">
+          <button class="burger_button"  id="burger_button">
+            <img src="close.png" alt="Закрыть" id="burger_icon">
+        </button>
+            <ul>
+              <img src="logo.jpg" alt="i" style="width: 200px; height: auto; top:27px;right: 300px; position: absolute;">
+                <li><a href="#" class="tarif" style="color:red;top:200px;right: 301px;">Карта</a></li>
+                <li><a href="./kerosenetwo.html" class="tarif"style="top:250px;right: 273px;">Каталог</a></li>
+                <li><a href="./keronesefour.html" class="tarif"style="top:300px;right: 268px;">Отзывы</a></li>
+                <li><a  href="#" id="openModalLink" onclick="openModal()" class="tarif"style="top:350px;right: 116px;">Войти/Регистрация</a>
+
+                <iframe id="iframeContainer" class="modal-iframe" src="login.html"></iframe></li>
+            </ul>
+        </nav>
+    </div>
+  </bodys> 
+  <div style="width: 1854px; height: 116px; left: 0px; top: 841px; position:absolute; background: white; border-radius: 18px" >
+    <a class="tarif" style="color:black;left:5px;top:5px;"><b>На карте отмечены все машины и их положение на карте</b></a>
+  </div>
+  <script type="module" src="cerver.mjs"></script>
+  <!-- <script src="mainone.js"></script>     -->
+</body>
+</html>

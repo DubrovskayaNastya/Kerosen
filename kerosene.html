@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Каршеринг</title>
+    <link rel="shortcut icon" href="qw.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+     
+       @keyframes move {
+            from {
+                margin-left: -250px;
+            }
+            to {
+                margin-left: 1854px;
+            }
+        }
+        @keyframes moves {
+            from {
+                margin-left: 1854px;
+            }
+            to {
+                margin-left: -250px;
+            }
+        }
+        #elem {
+          animation-direction: reverse;
+            animation-duration: 6s; 
+            animation-name: move; 
+            animation-iteration-count: infinite; 
+            animation-timing-function: linear;
+            position: absolute; 
+        }
+        #elems {
+        animation-direction: reverse;
+          animation-duration: 6s; 
+          animation-name: moves; 
+          animation-iteration-count: infinite; 
+          animation-timing-function: linear;
+          position: absolute; 
+      }
+    </style>
+    <body>
+    <div style="width: 1854px; height: 3414px; left: 0px; top: 0px; position:absolute; background: black"></div>
+    <div style="width: 1854px; height: 132px; left: 0px; top: 3px; position:absolute; background: white; border-radius: 18px" ></div>
+    <img style="width: 370px; height: 130px; left: 0px; top: 3px; position: absolute; border-radius: 31px" src="why.png" />
+    <a class="tarif" href="#taris"style="left:420px;top:9px;" ><b>Подсказки</b></a>
+    <a class="tarif" href="#maps" style="left:620px;top:9px;"><b>Зоны завершения</b></a>
+    <a class="tarif" href="#contacs" style="left:945px;top:9px;"><b>Служба поддержки</b></a>
+    <div style="width: 1854px; height: 566px; left: 0px; top: 138px; position: absolute; background: white; border-radius: 24px"></div>
+    <img style="width: 573px; height: 553px; left: 1050px; top: 150px; position: absolute" src="gib.png" />
+    <img style="width: 973px; height: 553px; left: 50px; top: 150px; position: absolute" src="text.png" />
+    <div class="white" style="left: 1px;top: 707px;">
+      <img style="width: 90px; height: auto; left: 0px; top: 12px; position: absolute" src="i.png" />
+      <a style="font-size: 1.3rem; left:100px;top:20px;position: absolute;"><b>Регистрация в течении 30 минут</b></a>
+      <a style="font-size: 1rem; left:100px;top:55px;position: absolute;">Нужен паспорт, номер телефона, банковская </a>
+      <a style="font-size: 1rem; left:100px;top:75px;position: absolute;">карта,водительское удостоверение</a>
+      <a style="font-size: 1rem; left:100px;top:95px;position: absolute;"> (категории B)</a>
+    </div>
+    <div class="white" style="left: 465px;top: 707px;">
+        <img style="width: 90px; height: auto; left: 0px; top: 12px; position: absolute" src="ben.png" />
+        <a style="font-size: 1.3rem; left:100px;top:20px;position: absolute;"><b>Бензин оплачиваем мы</b></a>
+        <a style="font-size: 1rem; left:100px;top:55px;position: absolute;">Заправляйтесь во всех автозаправках по</a>
+        <a style="font-size: 1rem; left:100px;top:75px;position: absolute;">нашей карте</a>
+    </div>
+    <div class="white" style="left: 928px;top: 707px;"> 
+        <img style="width: 90px; height: auto; left: 0px; top: 12px; position: absolute" src="prava.png" />
+        <a style="font-size: 1.3rem; left:100px;top:20px;position: absolute;"><b>Стаж вождения от 1 года</b></a>
+        <a style="font-size: 1rem; left:100px;top:55px;position: absolute;">Стаж требуется категории B</a>
+    </div>
+    <div class="white" style="left: 1392px;top: 707px;">
+      <img style="width: 90px; height: auto; left: 0px; top: 12px; position: absolute" src="clock.png" />
+      <a style="font-size: 1.3rem; left:100px;top:20px;position: absolute;"><b>Круглосуточная техподдержка</b></a>
+      <a style="font-size: 1rem; left:100px;top:55px;position: absolute;">Наши операторы в любое время суток помогут вам!</a>
+    </div>
+  <div class="slider-container">
+    <button class="newblack" id="leftArrow" href="#" style="left: 60px; top: 310px;">
+    <img style="width: 50px;height: 50px;left:5px;position: absolute;top:2px" src="as.png" />
+  </button>
+   <div class="slider"> 
+      <div class="items" id="items">
+       
+        <div class="item">
+          <img style="size:100%" src="oness.png">
+          <a class="buttons" style="width: 185px;left:125px;"href="./kerosenetwo.html">  
+            <a  class="newtarif" style="top:434px;left:175px;"><b>Каталог</b></a>
+          </a></img>
+        </div> 
+        <div class="item"><img style="size:100%" src="two.png"> 
+        <a class="buttons" style="width: 275px;left:165px;" href="#maps"> 
+          <a href="#maps" class="newtarif"  style="left:190px;"><b>Зоны завершения</b></a>
+        </img></a>  </div>
+        <div class="item"><img style="size:100%" src="three.png"></img></div>
+        <div class="item"><img style="size:100%" src="four.png">
+          <a  class="buttons" style="width: 175px;left:170px;" href="#maps">  
+          <a  class="newtarif" style="top:434px;left:210px;"href="./keronesefour.html"><b>Отзывы</b></a>
+          </a></img></div>
+        <div class="item"><img style="size:100%" src="five.png"></img></div>
+      </div>
+  </div> 
+  <button class="newblack" id="rightArrow" href="#" style="left: 1745px; top: 310px;">
+  <img style="width: 50px;height: 50px;left:5px;position: absolute;top:2px" src="white-arrow-png-41944.png" />
+</button>
+  </div>
+    <div id="taris" class="line"  style="left: 50px;"></div>   
+    <div  class="line"  style="left: 250px;"></div>
+    <div  class="line"  style="left: 450px;"></div>
+    <div  class="line"  style="left: 650px;"></div>
+    <div  class="line"  style="left: 850px;"></div>
+    <div  class="line"  style="left: 1050px;"></div>
+    <div  class="line"  style="left: 1250px;"></div>
+    <div  class="line"  style="left: 1450px;"></div>
+    <div  class="line"  style="left: 1650px;"></div>
+    <div id="maps" class="lines"  style="left: 50px;"></div>   
+    <div  class="lines"  style="left: 250px;"></div>
+    <div  class="lines"  style="left: 450px;"></div>
+    <div  class="lines"  style="left: 650px;"></div>
+    <div  class="lines"  style="left: 850px;"></div>
+    <div  class="lines"  style="left: 1050px;"></div>
+    <div  class="lines"  style="left: 1250px;"></div>
+    <div  class="lines"  style="left: 1450px;"></div>
+    <div  class="lines"  style="left: 1650px;"></div>
+    <div id="contacs" class="linesnew"  style="left: 50px;"></div> 
+    <img id="elem" style="width: 190px; height: 90px;  top:845px;"src="caaar.png">
+    <img id="elems" style="width: 190px; height: 90px;  top:959px;"src="car-00002.png">
+    <div  class="linesnew"  style="left: 250px;"></div>
+    <div  class="linesnew"  style="left: 450px;"></div>
+    <div  class="linesnew"  style="left: 650px;"></div>
+    <div  class="linesnew"  style="left: 850px;"></div>
+    <div  class="linesnew"  style="left: 1050px;"></div>
+    <div  class="linesnew"  style="left: 1250px;"></div>
+    <div  class="linesnew"  style="left: 1450px;"></div>
+    <div  class="linesnew"  style="left: 1650px;"></div>
+    <img id="elem" style="width: 190px; height: 90px;  top:1765px;"src="caaar.png">
+    <img id="elems" style="width: 190px; height: 90px;  top:1890px;"src="car-00002.png">
+    <div style="width: 1854px; height: 410px; left: 0px; top: 3000px; position: absolute; background: white; border-radius: 60px">
+      <a style="font-size: 2rem; left:770px;top:60px;position: absolute;"><b>Служба поддержки</b></a>
+      <img style="width:60px;height: auto; top:180px;left:50px;position: absolute;" src="telone.png">
+      <a style="font-size: 1.5rem; left:140px;top:190px;position: absolute;">+375(29)298-10-55</a>
+      <img style="width:60px;height: auto; top:260px;left:50px;position: absolute;" src="tgone.png">
+      <a style="font-size: 1.5rem; left:140px;top:270px;position: absolute;">@zib675</a>
+      <a style="font-size: 1.3rem; left:770px;top:150px;position: absolute;">Наша техподдержка гарантирует помощь вам со всеми вопросами</a>
+      <a style="font-size: 1.3rem; left:770px;top:180px;position: absolute;">Обращайтесь к нам и пишите отзывы</a>
+      <img style="width:60%;height: auto; top:320px;left:650px;position: absolute;" src="cards.png">
+    </div>
+    <div class="google-map" style="top:1995px;">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58284.70437354862!2d30.16175643256693!3d55.19209499043456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c573e3fc7c7be7%3A0x430637d0624afff4!2z0JLQuNGC0LXQsdGB0LosINCS0LjRgtC10LHRgdC60LDRjyDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sby!4v1727958479422!5m2!1sru!2sby"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+    </div>
+    <img id="elem" style="width: 190px; height: 90px;  top: 2745px;"src="caaar.png">
+    <img id="elems" style="width: 190px; height: 90px;  top:2890px;"src="car-00002.png">
+      <img style="width: 370px; height: 135px; left: 2px; top: 3020px; position: absolute; border-radius: 31px" src="why.png" />
+    <bodys> 
+      <div class="menu-container">
+        <button class="burger"  id="burger">
+            <img src="icon.png" alt="Меню" id="icon">
+        </button>
+        <div class="overlay" id="overlay"></div> 
+        <nav class="nav" id="nav">
+          <button class="burger_button"  id="burger_button">
+            <img src="close.png" alt="Закрыть" id="burger_icon">
+        </button>
+            <ul>
+              <img src="logo.jpg" alt="i" style="width: 200px; height: auto; top:27px;right: 300px; position: absolute;">
+                <li><a href="./keroseneone.html" class="tarif" style="top:200px;right: 301px;">Карта</a></li>
+                <li><a href="./kerosenetwo.html" class="tarif"style="top:250px;right: 273px;">Каталог</a></li>
+                <li><a href="./keronesefour.html" class="tarif"style="top:300px;right: 268px;">Отзывы</a></li>
+                <li><a  href="#" id="openModalLink" onclick="openModal()" class="tarif"style="top:350px;right: 116px;">Войти/Регистрация</a></li>
+                <iframe id="iframeContainer" class="modal-iframe" src="login.html"></iframe>
+            </ul>
+        </nav>
+    </div>
+    <script src="main.js"></script>    
+  </bodys>
+</body>
+</head>
+</html>

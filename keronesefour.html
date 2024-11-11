@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Каршеринг</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="qw.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="mainfour.js" defer></script>
+  </head>
+  <body>
+    <div style="width: 1854px; height:963px; left: 0px; top: 0px; position:absolute; background: black"></div>
+    <div style="width: 1854px; height: 132px; left: 0px; top: 3px; position:absolute; background: white; border-radius: 18px" ></div>
+    <a href="./kerosene.html"><img style="width: 370px; height: 130px; left: 0px; top: 3px; position: absolute; border-radius: 31px;z-index: 4;" src="why.png"/></a>
+    <a class="tarif" href="./kerosene.html#taris"style="left:420px;top:9px;" ><b>Подсказки</b></a>
+    <a class="tarif" href="./kerosene.html#maps" style="left:620px;top:9px;"><b>Зоны завершения</b></a>
+    <a class="tarif" href="./kerosene.html#contacs" style="left:945px;top:9px;"><b>Служба поддержки</b></a>
+    <bodys> 
+        <div class="menu-container">
+          <button style="top: 36px;position: absolute;" class="burger"  id="burger">
+              <img src="icon.png" alt="Меню" id="icon">
+          </button>
+          <div class="overlay" id="overlay"></div> 
+          <nav  class="nav" id="nav">
+            <button class="burger_button"  id="burger_button">
+              <img src="close.png" alt="Закрыть" id="burger_icon">
+          </button>
+              <ul>
+                <img src="logo.jpg" alt="i" style="width: 200px; height: auto; top:27px;right: 300px; position: absolute;">
+                  <li><a href="./keroseneone.html" class="tarif" style="top:200px;right: 301px;">Карта</a></li>
+                  <li><a href="./kerosenetwo.html" class="tarif"style="top:250px;right: 273px;">Каталог</a></li>
+                  <li><a href="#" class="tarif"style="color:red;top:300px;right: 268px;">Отзывы</a></li>
+                  <li><a  href="#" id="openModalLink" onclick="openModal()" class="tarif"style="top:350px;right: 116px;">Войти/Регистрация</a></li>
+
+                  <iframe id="iframeContainer" class="modal-iframe" src="login.html"></iframe>
+              </ul>
+          </nav>
+      </div>
+    </bodys> 
+    
+    <div style="width: 1854px; height: 144px; left: 0px; top: 812px; position:absolute; background: white; border-radius: 18px" >
+        <a class="tarif" style="color:black;left:5px;top:16px;"><b>Прочитайте наши отзывы и оставьте свои</b></a>
+    </div>
+    <!-- <div class="reviews-section" style="position: absolute;top:200px">
+        <h2 style="left: 50px;">Отзывы наших клиентов</h2>
+        
+        <div id="reviews-list" class="reviews-list">
+         
+        </div>
+      
+        <div class="review-form">
+          <h3>Оставьте свой отзыв</h3>
+          <input type="text" id="name" placeholder="Ваше имя" required>
+          <textarea id="reviewText" placeholder="Ваш отзыв" required></textarea>
+          <button onclick="submitReview()">Отправить отзыв</button>
+        </div>
+      </div>
+</div>   -->
+<h3 style="top:200px;position: absolute;left:300px;font-size: 1.7rem;color:white" class="roboto-medium">Оставьте свой отзыв</h3>
+<input style="width: 580px;top:330px;position: absolute;left:150px;height: 40px;" class="roboto-medium" type="text" id="namerev" placeholder="Ваше имя" required>
+<textarea style="height: 140px;width: 580px;top:450px;position: absolute;left:150px" class="roboto-medium" id="reviewText" placeholder="Ваш отзыв" required></textarea>
+<button style="top:670px;left:345px;position: absolute;" class="rev"onclick="submitReview()">Отправить отзыв</button>
+
+        <div id="reviews-container"style="background-color: white;left: 910px;position: absolute;top:123px;width: 900px;height: 600px;border-radius: 8px;"  class="reviews-list">
+          <div id="reviews-list" class="reviews-list"></div>
+        </div>
+
+        <h2 style="left: 1205px;position: absolute;top:  150px;color: #000;font-size: 1.7rem;"class="roboto-medium">Отзывы наших клиентов</h2>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Каршеринг</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="shortcut icon" href="qw.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="login.js" defer></script>
+</head>
+<body>
+    <div id="container"  style="height: 100vh; display: flex; align-items: center; justify-content: center; background-color: none;">
+        <div  class="container">
+            <div class="forms">
+                <div class="form login">
+                    <span class="title">Вход</span>
+                    <button class="closes-btn" type="button"  onclick="closeForm()">×</button>
+                    <form action="#">
+                        <div class="input-field" style="width: 300px;">
+                            <input id="name" type="text" placeholder="Введите свой логин" required />
+                            <i class="uil uil-user"></i>
+                        </div>
+                        <div class="input-field"style="width: 300px;">
+                            <input type="password" id="password" class="password" placeholder="Введите пароль" required />
+                            <i class="uil uil-lock icon"></i>
+                            <i class="uil uil-eye-slash showHidePw" style="right: -70px;"></i>
+                        </div>
+                        <p class="text" id="result"></p>
+                        <div id="checkButton" class="input-field button" style="left: 13px;">
+                            <input type="button" value="Войти" />
+                        </div>
+                    </form>
+                    <div class="login-signup">
+                        <span class="text">Нет аккаунта?
+                            <a href="#" class="text signup-link">Регистрация</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="form signup" style="width: 500px; height: 630px;" >
+                    <span style="top:30px; position: absolute;" class="title">Регистрация</span>
+                    <button class="close-btn" onclick="closeForm()">×</button>
+                    <form style="top:40px; position: absolute;" action="#" style="right: 30px;">
+                        <div class="input-field" style="width: 320px;">
+                            <input id="username" type="text" placeholder="Введите логин" required />
+                            <i class="uil uil-user"></i>
+                        </div>
+                        <div class="input-field" style="width: 320px;">
+                            <input id="phone" type="text" placeholder="Введите номер телефона" required />
+                            <i class=" uil-phone"></i>
+                        </div>
+                        
+                        <div class="input-field" style="width: 320px;">
+                            <input id="passport" type="text" placeholder="Введите номер и серия паспорта" required />
+                            <i class=" uil-user-square"></i>
+                        </div>
+                        <div class="input-field" style="width: 320px;">
+                            <input id="car"type="text" placeholder="Введите номер и серию в/у" required />
+                            <i class=" uil-user-square"></i>
+                        </div>
+                        <div class="input-field" style="width: 320px;">
+                            <input id="passwords"type="password" class="password" placeholder="Создайте пароль" required />
+                            <i class="uil uil-lock icon"></i>
+                            <i class="uil uil-eye-slash showHidePw" style="right: -70px;"></i>
+                        </div>
+                        <p class="text" id="errorMessage"></p>
+                        <p class="text" id="successMessage"></p>
+                        <div id="check" class="input-field button" style="width: 350px;left: 17px;">
+                            <input type="button"  value="Зарегистрироваться" />
+                        </div>
+                    </form>
+                    <div class="login-signup" style="left: 150px;position: absolute;top:530px">
+                        <span class="text">Есть аккаунт?
+                            <a href="#" class="text login-link">Войти</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="login.js" defer></script>
+</body>
+</html>
